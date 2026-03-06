@@ -1,2 +1,2 @@
 # embedded-systems-training
-# Njoroge-gearbox-training
+# Gearbox-Europlacer
