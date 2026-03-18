@@ -64,4 +64,33 @@ ul {
     color: orange;
     text-decoration: underline;
 }   
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+code {
+    font-family: Consolas, monospace;
+}
+.profile-image {
+    width: 180px;           
+    height: 240px;         
+    object-fit: cover;      
+    border-radius: 50%;    
+    display: block;
+    margin: 20px auto;      
+    border: 2px solid #e75b4e; 
 
+}
+.profile-image:hover {
+    transform: scale(1.05);
+    border-color: rgb(131, 32, 176);
+    transition: all 0.3s ease;
+}
+.profile-image:active {
+    transform: scale(0.95);
+    border-color: rgb(24, 24, 188);
+    transition: all 0.1s ease;
+}
