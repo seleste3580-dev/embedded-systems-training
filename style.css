@@ -1,9 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(32, 221, 221);
-    color:black;
-    margin: 20px;
+    background-color: #0f1115; 
+    color: #e0e0e0;           
+    font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 20px;
+
 }
+    
+
 a {
     display: inline-block;
     padding: 10px 20px;
@@ -93,4 +97,33 @@ code {
     transform: scale(0.95);
     border-color: rgb(24, 24, 188);
     transition: all 0.1s ease;
+}
+
+.images {
+    max-height: 200px;  
+    width: auto;         
+    display: block;     
+    margin: 15px auto;   
+    object-fit: contain; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 8px;  
+}
+h1, h2, h3 {
+    color: #39ff14; 
+    text-shadow: 
+        0 0 5px #39ff14,
+        0 0 10px #39ff14,
+        0 0 20px #39ff14;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.week h2:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+li {
+    margin-bottom: 10px;
 }
