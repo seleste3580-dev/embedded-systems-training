@@ -1,32 +1,79 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Week 4 - Advanced Embedded Systems Concepts and Applications</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Week 4 - Advanced Embedded Systems Concepts and Applications</h1>
+
+<head>
+    <title>Week 4 - Raspberry Pi Pico Programming and Sensor Integration</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Week 4 - Raspberry Pi Pico Programming and Sensor Integration</h1>
+    <hr>
+    <h2>Objectives</h2>
+    <p>The main objectives of the fourth week of the embedded systems training program were to:</p>
+    <ul>
+        <li>Explore extensive programming of the Raspberry Pi Pico using C and CircuitPython.</li>
+        <li>Understand the integration and application of ultrasonic sensors in embedded projects.</li>
+        <li>Develop hands-on projects utilizing the Raspberry Pi Pico and external sensors.</li>
+        <li>Understand hardware and software interrupts and their role in responsive systems.</li>
+        <li>Explore digital communication protocols including I2C, SPI, and UART.</li>
+    </ul>
+    <h2>Overview</h2>
+    <p>Key learning outcomes from Week 4:</p>
+    <ul>
+        <li>Gained comprehensive experience programming the Raspberry Pi Pico utilizing both C and CircuitPython.</li>
+        <li>Successfully interfaced and utilized ultrasonic sensors for distance and proximity detection.</li>
+        <li>Designed and executed practical embedded systems projects using the learned concepts.</li>
+        <li>Implemented interrupt service routines (ISRs) to handle external hardware triggers efficiently.</li>
+        <li>Successfully set up and communicated with peripheral devices using I2C, SPI, and UART protocols.</li>
+    </ul>
+
+    <h2>Projects Completed</h2>
+    <p>During the week, we implemented the following key projects:</p>
+    <ul>
+        <li><strong>Distance Measurement System:</strong> Interfaced an HC-SR04 ultrasonic sensor with the Raspberry Pi
+            Pico using C to measure distance accurately and print the results to the serial monitor.</li>
+        <li><strong>Proximity Alarm System:</strong> Developed a CircuitPython-based project that leverages the
+            ultrasonic sensor to trigger an alert or LED when an object is detected within a specific threshold.</li>
+    </ul>
+
+    <h2>Interrupts and Communication Protocols</h2>
+    <p>This week also heavily focused on understanding and implementing interrupts to create responsive, event-driven
+        applications on the Raspberry Pi Pico. Additionally, we explored fundamental digital communication protocols
+        used to interface microcontrollers with various sensors and peripherals.</p>
+    <ul>
+        <li><strong>Interrupts:</strong> Learned how to configure and use interrupt service routines (ISRs) to pause the
+            main program execution and handle immediate tasks, significantly improving system efficiency over polling
+            methods.</li>
+        <li><strong>UART (Universal Asynchronous Receiver-Transmitter):</strong> Used for asynchronous serial
+            communication, primarily for debugging and transmitting data between the Pico and a computer.</li>
+        <li><strong>I2C (Inter-Integrated Circuit):</strong> Implemented this synchronous, multi-master, multi-slave
+            protocol to communicate with sensors requiring only two communication lines (SDA and SCL).</li>
+        <li><strong>SPI (Serial Peripheral Interface):</strong> Configured high-speed synchronous communication using
+            SPI for devices that demand faster data transfer rates.</li>
+    </ul>
+
+    <h3>Resources</h3>
+    <p>Download the detailed notes and presentation covered in this topic here:</p>
+    <p><a href="assets/Interrupts_and_Communication_Protocols.pdf" download
+            style="display: inline-block; padding: 10px 15px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Download
+            Interrupts and Communication Protocols PDF</a></p>
+
+    <p>Overall, Week 4 was an enriching week of learning and hands-on experience in advanced embedded systems concepts
+        and applications, and I am eager to continue learning and exploring more advanced topics in the weeks ahead.</p>
+    <p>Next week, I will focus on learning about real-time operating systems (RTOS) and how they can be used to manage
+        tasks and resources in embedded systems, as well as exploring advanced debugging and testing techniques for
+        embedded applications.</p>
+    <img src="images/week4.jpg" alt="Embedded Systems Training Week 4" style="width:100%;height:auto;" class="images">
+    <p><a href="index.html">Return to Main Page</a></p>
+    <footer>
         <hr>
-        <h2>Objectives</h2>
-        <p>The main objectives of the fourth week of the embedded systems training program were to:</p>
-        <ul>
-           
-        </ul>
-        <h2>Overview</h2>
-        <p>Key learning outcomes from Week 4:</p>
-        <ul>
-            
-        </ul>
-        <p>Overall, Week 4 was an enriching week of learning and hands-on experience in advanced embedded systems concepts and applications, and I am eager to continue learning and exploring more advanced topics in the weeks ahead.</p>
-        <p>Next week, I will focus on learning about real-time operating systems (RTOS) and how they can be used to manage tasks and resources in embedded systems, as well as exploring advanced debugging and testing techniques for embedded applications.</p>
-        <img src="images/week4.jpg" alt="Embedded Systems Training Week 4" style="width:100%;height:auto;" class="images">
-        <p><a href="index.html">Return to Main Page</a></p>
-        <footer>
-            <hr>
-            <p>&copy; 2026 Embedded Systems Training GEARBOX-EUROPLACER</p>
-            <p>Author: Waithaka Njoroge</p>
-        </footer>
-    </body>
+        <p>&copy; 2026 Embedded Systems Training GEARBOX-EUROPLACER</p>
+        <p>Author: Waithaka Njoroge</p>
+        <iframe src="https://github.com/sponsors/seleste3580-dev/button" title="Sponsor seleste3580-dev" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+    </footer>
+</body>
+
 </html>
