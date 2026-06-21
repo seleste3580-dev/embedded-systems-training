@@ -28,6 +28,12 @@ The project is structured as a weekly log, each documented in a dedicated HTML r
 - **Week 4:** Raspberry Pi Pico programming, Ultrasonic sensor integration, Interrupts, and Protocols (UART, I2C, SPI).
 - **Week 5:** Advanced Pico programming with CircuitPython, LCD interfacing, and implementation of Debouncing Algorithms.
 - **Week 6:** Transition to ESP32 platform, setup of Arduino IDE & ESP-IDF, and in-depth datasheet analysis.
+- **Week 7:** Deep Dive into ESP32 and ESP-IDF Practice.
+- **Week 8:** ESP32 Exploration with Arduino IDE and Library Management.
+- **Week 9:** RFID Integration with Raspberry Pi Pico W.
+- **Week 10:** RFID Access Control Systems with ESP32.
+- **Week 11:** Capstone Project Component Exploration and Datasheet Review.
+- **Week 12:** Capstone Project Development & Final Presentations.
 
 ## 🖥️ How to View
 
