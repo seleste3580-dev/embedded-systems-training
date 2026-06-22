@@ -35,11 +35,6 @@ The project is structured as a weekly log, each documented in a dedicated HTML r
 - **Week 11:** Capstone Project Component Exploration and Datasheet Review.
 - **Week 12:** Capstone Project Development & Final Presentations.
 
-## 🖥️ How to View
-
-This project is a static website. To view the reports:
-1. Clone the repository.
-2. Open `index.html` in any modern web browser.
 
 ---
 
