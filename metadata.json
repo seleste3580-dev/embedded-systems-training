@@ -1,8 +1,0 @@
-{
-  "name": "Embedded Systems Training",
-  "description": "Progress tracking and documentation for embedded systems training.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
